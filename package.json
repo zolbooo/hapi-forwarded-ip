@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Forwarded IP plugin for Hapi",
   "main": "lib/index.js",
+  "files": ["lib/**/*"],
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/zolbooo/hapi-forwarded-ip/issues"
   },
-  "homepage": "https://github.com/zolbooo/hapi-forwarded-ip#readme"
+  "homepage": "https://github.com/zolbooo/hapi-forwarded-ip#readme",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
 }
