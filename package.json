@@ -1,0 +1,26 @@
+{
+  "name": "hapi-forwarded-ip",
+  "version": "1.0.0",
+  "description": "Forwarded IP plugin for Hapi",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zolbooo/hapi-forwarded-ip.git"
+  },
+  "keywords": [
+    "hapi",
+    "nginx",
+    "reverse-proxy",
+    "forwarded-ip",
+    "ip-address"
+  ],
+  "author": "Zolboobayar Gantumur <zolboobayar@metainc.mn>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zolbooo/hapi-forwarded-ip/issues"
+  },
+  "homepage": "https://github.com/zolbooo/hapi-forwarded-ip#readme"
+}
